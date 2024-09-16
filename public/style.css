@@ -1,0 +1,35 @@
+img {
+  width: 200px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+}
+
+p.username {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 10px;
+}
+
+p.lorem {
+    color: white;
+    
+    background-color: rgb(49, 49, 49);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    padding: 15px;
+      
+}
+
+p.links {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    word-spacing: 35px;
+  
+}
+
+em {
+  color: red;
+  font-style: normal;
+}
