@@ -8,7 +8,23 @@ img {
 p.username {
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-top: 10px;
+  padding-top: 5px;
+}
+
+h3.userInfo {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: right;
+  right: 50;
+  font-size: x-small;
+}
+
+p.heading {
+  color: black;
+  float: left;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align:center;
+  padding: 11px;
+    
 }
 
 p.lorem {
