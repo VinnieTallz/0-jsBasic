@@ -7,17 +7,21 @@ const userDetect = () => {
     const mapApiUrl = "http://api.bigdatacloud.net/data/reverse-geocode-client?latitude=${latitude}&longitude=${longitude}&localitylanguage=en"
     
     fetch (mapApiUrl)
+    .then(res => res.json())
+    .then(data => {
+        userinfo.innerHTML =
+        "Your OS: " +
+        navigator.platform +
+        "<p>" +
+        "Your Keyboard Language: " +
+        navigator.language +
+        "<p>" +
+        "Your Location: " +
+        "<p>" +
+        data.locality;
+    })
     
-    userinfo.innerHTML =
-      "Your OS: " +
-      navigator.platform +
-      "<p>" +
-      "Your Keyboard Language: " +
-      navigator.language +
-      "<p>" +
-      "Your Location: " +
-      "<p>" +
-      position;
+
 
     };
 

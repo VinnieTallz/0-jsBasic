@@ -1,14 +1,14 @@
 const express = require('express')
-const app = express()
+const server = express()
 
 
-app.use(express.static("public"))
-app.set("view engine", "ejs")
+server.use(express.static("public"))
+server.set("view engine", "ejs")
 
-app.get("/", (req, res) => {
+server.get("/", (req, res) => {
     console.log("Request Sent!")
     res.render("index")
 
 }) 
 
-app.listen(3000)
+server.listen(3000)

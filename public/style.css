@@ -1,48 +1,55 @@
+tr.title {
+  font-size: 200%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(13, 179, 7)
+}
+
 img {
-  width: 200px;
+  width: 300px;
   border-radius: 10px;
   float: left;
   margin-right: 10px;
 }
 
-p.username {
+td.username {
+  text-align: bottom;
   font-weight: bold;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding-top: 5px;
+  padding-top: 100px;
 }
 
-h3.userInfo {
+td.userInfo {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: right;
   right: 50;
   font-size: x-small;
 }
 
-p.heading {
+td.heading {
   color: black;
   float: left;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-align:center;
+  text-align: center;
   padding: 11px;
-    
+
 }
 
 p.lorem {
-    color: white;
-    
-    background-color: rgb(49, 49, 49);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align:center;
-    padding: 15px;
-      
+  color: white;
+
+  background-color: rgb(49, 49, 49);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 15px;
+
 }
 
 p.links {
-    color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align:center;
-    word-spacing: 35px;
-  
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  word-spacing: 35px;
+
 }
 
 em {
